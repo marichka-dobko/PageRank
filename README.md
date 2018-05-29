@@ -8,7 +8,7 @@ Task from MMDS course. Finding ranks for web pages using web-Google graph.
 ## ALGO
 Pseudocode (from Stanford course MMDS):
 
-<img src="./pseudocode_mmds_course_stanford.png" width="600px" height="250px"/> 
+<img src="./pseudocode_mmds_course_stanford.png" width="600px" height="450px"/> 
 
 
 
