@@ -25,9 +25,9 @@ def pagerank(file_name=FILE_NAME, beta=BETA, power_iterations=POWER_ITERATIONS, 
             id += 1
 
         row, col = [], []
-        for tuple in content:
-            x_coord = nodes_dict[int(tuple[0])]
-            y_coord = nodes_dict[int(tuple[1])]
+        for tuple_ in content:
+            x_coord = nodes_dict[int(tuple_[0])]
+            y_coord = nodes_dict[int(tuple_[1])]
             row.append(y_coord), col.append(x_coord)
 
     matrix = sparse.csr_matrix(([True] * num_edges, (row, col)), shape=(num_nodes, num_nodes))
