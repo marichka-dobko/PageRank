@@ -16,7 +16,5 @@ Pseudocode (from Stanford course MMDS):
 Example to run the program (Linux): 
 ```
 python main.py ./web-Google.txt 0.85 0.0001 875713 5105039 10
-.
-.
 ```
 
